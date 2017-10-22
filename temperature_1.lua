@@ -1,4 +1,4 @@
-#calculation doesn't work
+--calculation doesn't work
 
 sensor_pin = 0
 value = 0
