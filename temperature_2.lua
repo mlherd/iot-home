@@ -1,4 +1,4 @@
-#error there is no log fucntion
+-- error there is no log fucntion
 
 B = 4275
 R0 = 100000
@@ -22,7 +22,6 @@ tmr.alarm(0, delay, 1, function()
  counter = counter + 1
  if counter == sample_number then
   value = value / sample_number
-  print("almost there")
   cel = calculate (value)
   print(cel)
   counter = 0
